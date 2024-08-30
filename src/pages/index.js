@@ -1,9 +1,9 @@
-import Inner from "@/components/Layout/Inner";
+import Stairs from "@/components/Layout/Stairs";
 
 export default function Home() {
   return (
     <>
-      <Inner>
+      <Stairs>
         <h1>Home</h1>
         <div className="body">
           <p>
@@ -30,7 +30,7 @@ export default function Home() {
             laoreet ut volutpat sit amet, convallis et turpis.
           </p>
         </div>
-      </Inner>
+      </Stairs>
     </>
   );
 }

@@ -1,9 +1,9 @@
-import Inner from "@/components/Layout/Inner";
+import Stairs from "@/components/Layout/Stairs";
 
 export default function Contact() {
   return (
     <>
-      <Inner>
+      <Stairs>
         <h1>Contact</h1>
         <div className="body">
           <p>
@@ -24,7 +24,7 @@ export default function Contact() {
             Vivamus ornare ex a nibh egestas, id euismod mi euismod.
           </p>
         </div>
-      </Inner>
+      </Stairs>
     </>
   );
 }
